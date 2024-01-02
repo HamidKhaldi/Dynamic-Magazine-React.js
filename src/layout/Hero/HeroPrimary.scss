@@ -1,0 +1,77 @@
+.fsot__primary-hero-cont{
+    position: relative;
+    height: 14rem;
+
+    @include mq($from: tablet){
+        height: 20rem;
+    }
+
+    @include mq($from: desktopXL){
+        height: auto;
+    }
+}
+
+.fsot__primary-hero-img{
+    width: 100%;
+    height: auto;
+
+    // @include mq($from: desktop){
+    //     height: 100%;
+    // }
+}
+
+.fsot__primaryhero-heading{
+    &--cont{
+        @include mq($from: tablet){
+            position: absolute;
+            top: 50%;
+            left: 7%;
+        }
+
+        @include mq($from: desktop){
+            top: 35%;
+        }
+    }
+
+    &--small{
+        color: $eyOffWhite;
+        background-color: $eyOffBlack;
+        text-align: left;
+        @include fontSize(14px);
+        width: fit-content;
+        padding: 7px 19px;
+
+        @include mq($from: tablet){
+            text-align: center;
+            @include fontSize(18px);
+        }
+
+        @include mq($from: desktop){
+            @include fontSize(40px);
+        }
+    }
+
+    &--large{
+        font-family: EYInterstate-Light, sans-serif;
+        color: $eyOffWhite;
+        background-color: $eyOffBlack;
+        text-align: left;
+        @include fontSize(36px);
+        width: fit-content;
+        padding: 5px 7px;
+        margin: 0;
+
+        @include mq($from: tablet){
+            text-align: center;
+            @include fontSize(48px);
+        }
+
+        @include mq($from: desktop){
+            @include fontSize(72px);
+        }
+
+        @include mq($from: desktopMid){
+            @include fontSize(80px);
+        }
+    }
+}

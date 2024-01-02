@@ -1,0 +1,25 @@
+.fsot__back-cont{
+    padding: 2rem;
+}
+
+.fsot__back-link{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: $eyOffBlack;
+    @include fontSize(18px);
+}
+
+.fsot__back-img{
+    display: inline-block;
+    width: 33px;
+    margin-top: -3px;
+    margin-right: 8px;
+}
+
+.fsot__back-link{
+    display: inline-block;
+    @include fontSize(14px);
+    color: $eyOffWhite;
+    margin-left: 5px;
+}

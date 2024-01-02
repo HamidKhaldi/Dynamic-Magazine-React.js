@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="play-button" opacity="0.5">
+    <g id="Group_110" data-name="Group 110">
+      <path id="Path_111" data-name="Path 111" d="M32,0A32,32,0,1,0,64,32,32.036,32.036,0,0,0,32,0ZM44.721,33.121l-18.667,12A1.333,1.333,0,0,1,24,44V20a1.333,1.333,0,0,1,2.055-1.121l18.667,12a1.333,1.333,0,0,1,0,2.242Z"/>
+    </g>
+  </g>
+</svg>

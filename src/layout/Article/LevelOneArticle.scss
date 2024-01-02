@@ -1,0 +1,121 @@
+.fsot__article-cont {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    min-height: 40rem;
+  }
+}
+
+.fsot__article-img-cont {
+  position: relative;
+
+  @include mq($from: desktop) {
+    flex-basis: 25%;
+  }
+}
+
+.fsot__article-img {
+  width: 100%;
+
+  @include mq($from: desktop) {
+    position: absolute;
+    top: 9%;
+    left: 0;
+    width: 180%;
+    height: auto;
+  }
+}
+
+.fsot__article-img-gradient {
+  position: absolute;
+  z-index: 90;
+  width: 100%;
+  top: 0;
+  left: 0;
+  // background: linear-gradient(0deg, transparent, $eyOffBlack 80%) no-repeat;
+
+  @include mq($from: desktop) {
+    width: 180%;
+    top: 9%;
+  }
+}
+
+.fsot__article-video {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: "none";
+
+  @include mq($from: desktop) {
+    position: relative;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 180%;
+    height: 20rem;
+  }
+}
+
+.fsot__article-title {
+  color: $eyOffBlack;
+  @include fontSize(30px);
+  width: 85%;
+  text-align: left;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.fsot__article-content {
+  flex-basis: 90%;
+  // background-color: $eyYellow;
+  padding: 4rem 2rem;
+  @include fontSize(18px);
+  margin-top: -1rem;
+
+  @include mq($from: desktop) {
+    margin: 1rem auto;
+    padding: 4rem 3rem;
+    flex-basis: 75%;
+    padding-left: 25%;
+  }
+
+  // @include mq($from: desktopMid) {
+  //   padding-left: 20rem;
+  // }
+
+  // @include mq($from: desktopWide) {
+  //   padding-left: 20rem;
+  // }
+}
+
+.fsot__article-noImg-content {
+  background-color: $eyYellow;
+  padding: 4rem;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.fsot__article-sub-heading {
+  @include fontSize(22px);
+}
+
+.fsot__article-text {
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+  @include fontSize(16px);
+  font-family: EYInterstate-Light, sans-serif;
+  color: $eyOffBlack;
+  font-weight: 300;
+  line-height: 1.5;
+
+  a{
+    text-decoration: none !important;
+    color: $eyOffBlack;
+    text-decoration: underline !important;
+    font-weight: 700;
+  }
+}

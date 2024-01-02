@@ -1,0 +1,104 @@
+.fsot__video-carousel-section {
+  position: relative;
+  background-color: $eyOffBlack;
+  margin: 3rem 0;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.fsot__video-carousel-wrapper-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+
+.fsot__video-carousel-inner {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.fsot__video-carousel-list {
+  display: flex;
+  position: relative;
+  list-style: none;
+  // padding: 0 5%;
+  margin: 0px;
+  -webkit-transition: all 0.3s 0s ease;
+  -moz-transition: all 0.3s 0s ease;
+  -o-transition: all 0.3s 0s ease;
+  transition: all 0.3s 0s ease;
+  transform: translate3d(0px, 0px, 0px);
+
+  &--item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.fsot__video-item {
+  margin: auto;
+}
+
+.fsot__carousel-indicator-icon{
+  // color: $eyOffWhite;
+  color: $eyYellow;
+  width: 4rem;
+  position: absolute;
+  z-index: 99;
+  top: 45%;
+  opacity: .6;
+}
+
+.icon-right{
+  right: 0;
+  cursor: pointer;
+
+  @include mq($from: desktopWide){
+    right: -2rem;
+  }
+ 
+}
+
+.icon-left{
+  left: 0;
+  cursor: pointer;
+
+  @include mq($from: desktopWide){
+    right: -2rem;
+  }
+}
+
+
+.fsot__video-item-header {
+  color: $white;
+  width: 100%;
+  padding-left: 3rem;
+}
+
+.fsot__video-carousel-indicator{
+    position: absolute;
+    right: 0;
+    width: 5%;
+    height: 100%;
+    z-index: 99;
+}
+
+.indicator-left{
+    left: 0;
+    // background-image: linear-gradient(to right, $eyOffBlack 30%, $eyOffBlackOpac 80%, transparent);
+}
+
+.indicator-right{
+    right: 0;
+    // background-image: linear-gradient(to left, $eyOffBlack 30%, $eyOffBlackOpac 80%, transparent);
+}

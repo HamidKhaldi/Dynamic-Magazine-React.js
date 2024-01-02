@@ -1,0 +1,78 @@
+.fsot__video-intro-section{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 4rem;
+    
+    @include mq($from: desktop){
+        padding: 4rem;
+        flex-direction: row;
+    }
+
+    @include mq($from: desktopXL){
+        margin-bottom: 6rem;
+    }
+}
+
+.fsot__video-intro-left{
+    background-color: $white;
+    padding: 2rem;
+    position: relative;
+
+    @include mq($from: desktop){
+        flex-basis: 80%;
+        padding: 3rem;
+        padding-right: 23rem;
+    }
+
+    @include mq($from: desktopMid){
+        padding-right: 16rem;
+    }
+
+    @include mq($from: desktopWide){
+        padding-right: 4rem;
+    }
+
+    @include mq($from: desktopXL){
+        padding-right: 10rem;
+    }
+}
+
+.fsot__video-intro-right{
+    position: relative;
+
+    @include mq($from: desktop){
+        flex-basis: 30%;
+    }
+
+    // @include mq($from: desktopMid){
+    //     flex-basis: 25%;
+    // }
+
+    @include mq($from: desktopWide){
+        flex-basis: 45%;
+    }
+}
+
+.fsot__video-intro-text{
+    margin-bottom: 1rem;
+}
+
+.fsot__video-wrapper-cont{
+
+    @include mq($from: desktop){
+        position:absolute;
+        left: -77%;
+        top: 23%;
+    }
+
+    @include mq($from: desktopWide){
+        left: -12%;
+    }
+
+    @include mq($from: desktopXL){
+        position: relative; 
+    }
+   
+}
+

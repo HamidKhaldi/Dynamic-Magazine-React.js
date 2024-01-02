@@ -1,0 +1,130 @@
+.fsot__awards-section {
+  padding: 2rem;
+  background-color:   rgba(46, 46, 56, 0.9);
+  border: 1px solid $eyOffWhite;
+
+  @include mq($from: desktop) {
+    padding: 2rem 0 0;
+  }
+}
+
+.fsot__awards-intro-cont {
+  padding: 2rem 0;
+
+  @include mq($from: desktop) {
+    padding: 2rem 4rem;
+  }
+}
+
+.fsot__awards-title {
+  background-color: $eyYellow;
+  color: $eyOffBlack;
+  padding: 12px 20px;
+  width: fit-content;
+  margin-bottom: 1rem;
+  @include fontSize(22px);
+}
+
+.fsot__awards-intro {
+  @include fontSize(18px);
+}
+
+.fsot__awards-filter-cont {
+  background-color: rgba(46, 46, 56, 0.9);
+  padding: 2rem 0;
+
+  @include mq($from: desktop) {
+    padding: 2rem 4rem;
+  }
+}
+
+.fsot__awards-filter-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  &--item {
+    color: $white;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &--input {
+    margin-right: 0.5rem;
+    @include fontSize(24px);
+  }
+
+  &--label {
+    color: $white;
+  }
+}
+
+.fsot__awards-card-cont {
+  padding: 4rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  @include mq($from: desktop) {
+    padding: 4rem;
+  }
+}
+
+.fsot__awards-card-title {
+  margin-bottom: 3rem;
+  color: $white;
+}
+
+.fsot__awards-card-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  &--item {
+    margin-bottom: 1rem;
+    @include mq($from: tablet){
+      margin-right: 1rem;
+    }
+  }
+}
+
+.fsot__awards-filter-list--input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: $eyOffBlack;
+  border: 1px solid $eyYellow;
+
+  &::before {
+    background-color: $eyOffBlack;
+  }
+
+  &:checked::before {
+    content: "✔";
+    color: $eyYellow;
+    font-size: 13px;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+  }
+}
+
+.fsot__awards-card-list-btn {
+  display: block;
+  width: fit-content;
+  margin: 3rem auto;
+  padding: 7px 24px;
+  background-color: $white;
+  color: $eyOffBlack;
+  font-weight: 700;
+}

@@ -1,0 +1,19 @@
+<svg id="Component_24_1" data-name="Component 24 – 1" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+  <g id="Group_79" data-name="Group 79" transform="translate(-237 -212)" opacity="0.8">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="32.5" cy="32.5" r="32.5" transform="translate(237 212)" fill="#fff" opacity="0.85"/>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(247 222)" fill="#fff" stroke="#707070" stroke-width="0.5">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="22.25" fill="none"/>
+    </g>
+    <g id="Group_78" data-name="Group 78" transform="translate(251.964 226.964)">
+      <g id="Group_76" data-name="Group 76" transform="translate(0 13.273)">
+        <path id="Path_71" data-name="Path 71" d="M2.634,19.952a.623.623,0,0,0,0,.772L5.545,24.2a.407.407,0,0,0,.647,0,.623.623,0,0,0,0-.772L3.6,20.338,6.191,17.25a.623.623,0,0,0,0-.772.407.407,0,0,0-.647,0Zm12.641-.16H2.957v1.092H15.275Z" transform="translate(-2.5 -16.318)" fill="#747480"/>
+        <path id="Path_100" data-name="Path 100" d="M.134,3.634a.623.623,0,0,0,0,.772L3.045,7.879a.407.407,0,0,0,.647,0,.623.623,0,0,0,0-.772L1.1,4.02,3.691.932a.623.623,0,0,0,0-.772.407.407,0,0,0-.647,0Zm12.641-.16H.457V4.565H12.775Z" transform="translate(35.339 8.039) rotate(180)" fill="#747480"/>
+      </g>
+      <g id="Group_77" data-name="Group 77" transform="translate(21.312 0) rotate(90)">
+        <path id="Path_71-2" data-name="Path 71" d="M.134,3.634a.623.623,0,0,0,0,.772L3.045,7.879a.407.407,0,0,0,.647,0,.623.623,0,0,0,0-.772L1.1,4.02,3.691.932a.623.623,0,0,0,0-.772.407.407,0,0,0-.647,0Zm12.641-.16H.457V4.565H12.775Z" transform="translate(0 0)" fill="#747480"/>
+        <path id="Path_100-2" data-name="Path 100" d="M.134,3.634a.623.623,0,0,0,0,.772L3.045,7.879a.407.407,0,0,0,.647,0,.623.623,0,0,0,0-.772L1.1,4.02,3.691.932a.623.623,0,0,0,0-.772.407.407,0,0,0-.647,0Zm12.641-.16H.457V4.565H12.775Z" transform="translate(35.339 8.039) rotate(180)" fill="#747480"/>
+      </g>
+    </g>
+  </g>
+</svg>

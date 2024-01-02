@@ -1,0 +1,83 @@
+/**
+ * Utility styles
+ */
+
+@import "./_tools/_variables.scss";
+@import "./_tools/_mixins.scss";
+@import "./_tools/_helpers.scss";
+@import "./_base/_base.scss";
+@import "./_base/_typography.scss";
+@import "./_media/_print.scss";
+@import "./_third-party/_normalize.scss";
+@import "./_third-party/_sass-mq.scss";
+@import "./_third-party/_sharepoint.scss";
+@import "../../index.scss";
+
+/**
+ * Component styles
+*/
+
+@import "../../layout/BreakpointIndicator/BreakpointIndicator.scss";
+@import "../../components/Header/Header.scss";
+@import "../../components/MainNavigation/MainNavigation.scss";
+@import "../../components/LoadingComponent/LoadingComponent.scss";
+@import "../../layout/Hero/HeroPrimary.scss";
+@import "../../layout/Hero/HeroSecondary.scss";
+@import "../../layout/Hero/HeroIntro.scss";
+@import "../../layout/Share/Share.scss";
+@import "../../layout/Quote/Quote.scss";
+@import "../../layout/Profile/Profile.scss";
+@import "../../layout/Article/LevelOneArticle.scss";
+@import "../../layout/Video/VideoIntro.scss";
+@import "../../layout/Article/LevelTwoArticle.scss";
+@import "../../layout/Article/NumberedArticle.scss";
+@import "../../layout/Article/LevelThreeArticle.scss";
+@import "../../layout/Video/VideoCard.scss";
+@import "../../layout/Video/Video.scss";
+@import "../../components/Indexing/ArticleIndexing.scss";
+@import "../../components/Modal/VideoModal.scss";
+@import "../../components/Modal/QuoteModal.scss";
+@import "../../components/ImageComp/ImageComp.scss";
+@import "../../components/MenuOverlay/MenuOverlay.scss";
+@import "../../layout/Carousel/VideoCarousel.scss";
+@import "../../layout/WinnerCard/WinnerCard.scss";
+@import "../../components/Awards/Awards.scss";
+@import "../../components/Awards/AwardPrizes.scss";
+@import "../../components/Awards/AwardEvents.scss";
+@import "../../layout/SelectFilter/SelectFilter.scss";
+@import "../../layout/Chat/Chat.scss";
+@import "../../components/Resources/Resources.scss";
+@import "../../layout/Tabbing/RecipeTabs.scss";
+@import "../../layout/Tabbing/RecipeTabContent.scss";
+@import "../../layout/Tabbing/ResourceTabs.scss";
+@import "../../layout/Tabbing/ResourceTabContent.scss";
+@import "../../layout/Back/Back.scss";
+@import "../../components/Modal/Level3Modal.scss";
+@import "../../components/Talent/TalentComp.scss";
+@import "../../layout/TalentCard/TalentCard.scss";
+@import "../../components/Modal/TalentModal.scss";
+
+
+
+$mq-responsive: true;
+
+$mq-breakpoints: (
+  mobile: 320px,
+  midMobile: 390px,
+  tablet: 740px,
+  desktop: 980px,
+  desktopMid: 1135px,
+  desktopWide: 1400px,
+  desktopXL: 1800px,
+);
+
+$mq-static-breakpoint: desktop;
+$mq-show-breakpoints: (
+  mobile,
+  midMobile,
+  tablet,
+  desktop,
+  desktopMid,
+  desktopWide,
+  desktopXL
+);

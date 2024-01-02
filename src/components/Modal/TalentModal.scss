@@ -1,0 +1,250 @@
+#modal {
+  z-index: 2;
+  position: relative;
+}
+
+.modal {
+  &_wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #fff, $alpha: 0.35);
+    opacity: 1;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 999;
+  }
+
+  &_container {
+    background-color: $white;
+    width: calc(40rem + 15vw);
+    height: auto;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.modal_wrapper.show {
+  visibility: visible;
+  opacity: 1;
+  animation: 1s ease-out;
+
+  #modal {
+    transform: translateY(0);
+  }
+}
+
+.fsot__talent-modal-cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $eyOffWhite;
+  padding: 4rem 0;
+  width: 100%;
+  height: 70vh;
+  overflow-y: auto;
+
+  @include mq($from: desktopMid) {
+    padding: 3rem 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 3rem;
+    width: 90%;
+  }
+}
+
+.fsot__talent-modal-innner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.fsot__talent-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  z-index: 9999;
+}
+
+.fsot__talent-card-intro {
+  text-decoration: none;
+  color: $white;
+}
+
+.fsot__talent-carousel-cont {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: desktopMid) {
+    flex-basis: 30rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+
+  @include mq($from: desktopWide) {
+    flex-basis: 40rem;
+  }
+}
+
+.fsot__talent-carousel {
+  .carousel-inner {
+    width: 30rem;
+    // height: 23rem;
+    margin: auto;
+
+    @include mq($from: desktopWide) {
+      width: 40rem;
+      height: 23rem;
+    }
+  }
+
+  .carousel-control-prev {
+    @include mq($from: desktopMid) {
+      left: -80px;
+    }
+  }
+  .carousel-control-prev-icon {
+    background-image: url(../../assets/images/btn-left.png);
+  }
+  .carousel-control-next {
+    @include mq($from: desktopMid) {
+      right: -80px;
+    }
+  }
+  .carousel-control-next-icon {
+    background-image: url(../../assets/images/btn-right.png);
+  }
+
+  .carousel-indicators {
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    width: 10rem;
+    margin: 1rem auto;
+
+    button {
+      background-color: #afaeba;
+      width: 15px;
+      height: 15px;
+      border: none;
+      border-radius: 50%;
+      opacity: 1;
+
+      &.active {
+        background-color: $eyOffBlack;
+      }
+    }
+  }
+}
+
+.fsot__talent-text-cont {
+  flex-basis: 100%;
+  padding: 0 2rem;
+
+  a{
+    text-decoration: none;
+    color: $eyOffBlack !important;
+    text-decoration: underline !important;
+    font-weight: 700 !important;
+  }
+}
+
+.fsot__talent-carousel-img {
+  width: 100%;
+}
+
+.fsot__talent-radio-label {
+  color: $eyOffWhite;
+  @include fontSize(18px);
+  font-weight: 400;
+}
+
+.fsot__talent-radio-cont {
+  margin: 5rem auto;
+
+  @include mq($from: desktopMid) {
+    margin: 5rem 0;
+  }
+
+  background-color: $eyOffBlack;
+  width: fit-content;
+  padding: 10px 50px 10px 20px;
+  display: inline-block;
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    + .fsot__talent-radio-label {
+      &:before {
+        content: "";
+        background: $eyOffWhite;
+        border-radius: 100%;
+        border: 1px solid darken($eyOffWhite, 25%);
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 7px;
+        left: 0;
+        margin-right: 15px;
+        vertical-align: top;
+        cursor: pointer;
+        text-align: center;
+        transition: all 250ms ease;
+      }
+    }
+    &:checked {
+      + .fsot__talent-radio-label {
+        &:before {
+          background-color: $eyOffBlack;
+          box-shadow: inset 0 0 0 4px $eyOffWhite;
+        }
+      }
+    }
+    &:focus {
+      + .fsot__talent-radio-label {
+        &:before {
+          outline: none;
+          border-color: $eyOffBlack;
+        }
+      }
+    }
+    &:disabled {
+      + .fsot__talent-radio-label {
+        &:before {
+          box-shadow: inset 0 0 0 4px $eyOffWhite;
+          border-color: darken($eyOffWhite, 25%);
+          background: darken($eyOffWhite, 25%);
+          cursor: unset;
+        }
+      }
+    }
+    + .fsot__talent-radio-label {
+      &:empty {
+        &:before {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.fsot__talent-text-heading {
+  margin-bottom: 2rem;
+}

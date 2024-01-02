@@ -1,0 +1,119 @@
+.header {
+  position: relative;
+
+  &-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 30px;
+  }
+
+  &-navigation {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &__title {
+      margin: 0;
+      font-weight: 700;
+      @include fontSize(18px);
+      line-height: 26px;
+      color: $eyOffBlack;
+    }
+  }
+
+  &-navigation__back {
+    margin-right: 10px;
+
+    &-text {
+      margin: 0;
+      font-weight: 700;
+      @include fontSize(18px);
+      line-height: 26px;
+      color: $eyOffBlack;
+    }
+  }
+
+  &-cta-buttons {
+    position: relative;
+    margin: 35px 20px 40px;
+    display: flex;
+    align-items: center;
+
+    .btn {
+      background-color: $eyOffBlack;
+      border: none;
+      color: $eyTextGrey;
+      font-family: EYInterstate-Regular, sans-serif;
+      @include fontSize(16px);
+      line-height: 35px;
+
+      &:active,
+      &:hover {
+        background-color: $eyYellow;
+        color: $eyOffBlack;
+      }
+
+      &:first-child {
+        margin-right: 34px;
+      }
+
+      &-more {
+        &-detail {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          padding: 0;
+          border: none;
+          background-color: transparent;
+        }
+
+        &-text {
+          font-family: EYInterstate-Regular, sans-serif;
+          @include fontSize(18px);
+          line-height: 21px;
+          color: $eyOffBlack;
+        }
+
+        &-icon {
+          width: 13px;
+          height: 13px;
+          display: inline-block;
+          margin-left: 5px;
+          vertical-align: baseline;
+          transform: rotate(45deg);
+          transition: .2s ease-in-out;
+
+          &.active {
+            transform: rotate(90deg);
+          }
+
+        }
+      }
+    }
+
+    .header-navigation {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      margin-right: 35px;
+      background-color: $eyOffBlack;
+      color: $eyTextGrey;
+      font-family: EYInterstate-Regular, sans-serif;
+      @include fontSize(16px);
+      font-size: 1rem;
+      line-height: 35px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color .3s ease-in-out, color .3s ease-in-out;
+
+      &:hover {
+        background-color: $eyYellow;
+        color: $eyOffBlack;
+      }
+    }
+  }
+}
+
+hr {
+  border: 1px solid $eyGrey;
+}

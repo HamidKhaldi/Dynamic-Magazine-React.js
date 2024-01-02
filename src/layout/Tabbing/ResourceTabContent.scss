@@ -1,0 +1,39 @@
+.fsot__resource-tab-content{
+    background-color: $eyOffWhite;
+    padding: 1rem;
+}
+
+.fsot__resource-tab-intro{
+    @include fontSize(16px);
+    font-family: EYInterstate-Light, sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    
+    a{
+      text-decoration: none !important;
+      color: $eyOffBlack;
+      text-decoration: underline !important;
+      font-weight: 700;
+    }
+}
+
+.fsot__resource-list{
+    padding: 0;
+    list-style: none;
+
+    &--item{
+        margin-bottom: 1rem;
+    }
+
+    &--link{
+        text-decoration: none;
+        color: $eyOffBlack;
+        font-weight: 700;
+    }
+
+    &--icon{
+        display: inline-block;
+        margin-left: 5px;
+    }
+}

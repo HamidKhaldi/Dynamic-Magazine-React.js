@@ -1,0 +1,154 @@
+#modal {
+  z-index: 2;
+  position: relative;
+}
+
+.modal {
+  &_wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: $eyOffBlack, $alpha: 0.8);
+    opacity: 1;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 999;
+
+    &.show {
+      visibility: visible;
+      opacity: 1;
+      animation-name: slideInRight;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-out;
+
+      #level3ArticleModal {
+        transform: translateX(0);
+      }
+    }
+
+    &.hide {
+      visibility: hidden;
+      opacity: 0;
+      animation-name: slideOutRight;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-out;
+      animation-delay: 0;
+
+      #level3ArticleModal {
+        transform: translateX(100%);
+      }
+    }
+  }
+
+  &_container {
+    background-color: $white;
+    width: calc(40rem + 15vw);
+    height: auto;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.fsot__level3-modal-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: $eyOffWhite;
+  padding: 2rem;
+  width: 90%;
+  max-width: 1600px;
+  max-height: 87vh;
+  overflow-y: auto;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    padding: 4rem;
+  }
+}
+
+.fsot__level3-modal-innner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.fsot__level3-modal-img-cont {
+  flex-basis: 100%;
+
+  @include mq($from: desktop) {
+    flex-basis: 42%;
+    margin-bottom: 0;
+  }
+}
+
+.fsot__level3-modal-media {
+  width: 100%;
+}
+
+.fsot__level3-modal-noMedia-content {
+  width: 100%;
+  color: $eyOffWhite;
+}
+
+.fsot__level3-modal-content {
+  flex-basis: 55%;
+  height: 100%;
+  overflow-y: auto;
+  color: $eyOffBlack;
+  padding: 0;
+
+  @include mq($from: desktop) {
+    flex-basis: 54%;
+  }
+
+  @include mq($from: desktopWide) {
+    padding: 0 2rem;
+  }
+}
+
+.fsot__level3-modal-close {
+  position: relative;
+  top: -10px;
+  left: 48%;
+  z-index: 9999;
+
+  @include mq($from: desktop) {
+    top: -22px;
+    left: 99%;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.level3-modal-intro {
+  color: $eyOffBlack;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,8 @@
+.fsot__resources-select-cont{
+    background-color: $white;
+    padding: 0 2rem;
+
+    @include mq($from: desktop){
+        padding: 0 4rem;
+    }
+}

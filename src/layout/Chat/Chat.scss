@@ -1,0 +1,31 @@
+.fsot__chat-section {
+  width: fit-content;
+  margin: 2rem auto 4rem;
+}
+
+.fsot__chat-icon {
+  display: block;
+  width: 50px;
+  margin: 20px auto;
+}
+
+.fsot__chat-link {
+  text-decoration: none;
+  @include fontSize(12px);
+  padding: 10px 20px;
+  border: 1px solid $eyOffWhite;
+  background-color: $eyOffBlack;
+  color: $eyOffWhite;
+  font-weight: 700;
+  transition: .5s;
+
+  &:hover {
+    color: $eyOffBlack;
+    background-color: $eyOffWhite;    
+    border-color: $eyOffBlack;
+  }
+
+  @include mq($from: desktop){
+    @include fontSize(18px);
+  }
+}

@@ -1,0 +1,189 @@
+#quoteModal {
+  z-index: 5;
+  position: relative;
+}
+
+.fsot__quote-modal {
+  &_wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: $eyOffBlack, $alpha: 0.8);
+    opacity: 1;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 999;
+  }
+
+  &-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.fsot__quote-modal_wrapper.show {
+  visibility: visible;
+  opacity: 1;
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+
+  #quoteModal {
+    transform: translateX(0);
+  }
+}
+
+.fsot__quote-modal_wrapper.hide {
+  visibility: hidden;
+  opacity: 0;
+  animation-name: slideOutRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+
+  #quoteModal {
+    transform: translateX(100%);
+  }
+}
+
+.fsot__quote-modal-cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $eyOffWhite;
+  padding: 6rem 3rem 3rem 3rem;
+  width: 90%;
+  max-width: 1600px;
+  max-height: 87vh;
+  overflow-y: auto;
+  // margin-top: 3rem;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+.fsot__quote-modal-heading{
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+  display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.fsot__quote-modal-category-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+
+  &--item{
+    @include fontSize(12px);
+    font-weight: 600;
+    margin-left: 5px;
+  }
+}
+
+.fsot__quote-modal-type{
+  @include fontSize(12px);
+  font-weight: 600;
+}
+
+.fsot__quote-text-cont {
+  width: 100%;
+  margin-bottom: 1rem;
+
+  @include mq($from: desktop) {
+    // width: 50%;
+    height: 100%;
+    overflow-y: auto;
+    margin-right: 3rem;
+  }
+}
+
+.fsot__quote-modal-summary-cont {
+  width: 100%;
+
+  @include mq($from: desktop) {
+    width: 40%;
+    padding-top: 4rem;
+  }
+}
+
+.fsot__quote-modal-video {
+  flex-basis: 100%;
+  margin-bottom: 1rem;
+
+  @include mq($from: desktop) {
+    // flex-basis: 50%;
+    margin-bottom: 0;
+  }
+}
+
+.fsot__quote-modal-content {
+  flex-basis: 100%;
+  color: $eyOffWhite;
+  padding: 0;
+
+  @include mq($from: desktop) {
+    flex-basis: 50%;
+    padding: 0 2rem;
+  }
+}
+
+.fsot__quote-modal-icon {
+  width: 40px;
+  margin-bottom: 2rem;
+}
+
+.fsot__quote-modal-text {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.3;
+  @include fontSize(18px);
+
+  @include mq($from: desktop) {
+    @include fontSize(24px);
+  }
+}
+
+.fsot__quote-modal-close {
+  position: relative;
+  top: -38px;
+  left: 51%;
+  z-index: 9999;
+
+  @include mq($from: desktop) {
+    left: 99%;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

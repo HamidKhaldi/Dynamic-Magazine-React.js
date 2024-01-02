@@ -1,0 +1,51 @@
+.fsot__award-winner-card{
+    background-color: $white;
+    color: $eyOffBlack;
+    width: 100%;
+    height: 13.5rem;
+    padding: 2rem 2rem 13rem;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    @include mq($from: tablet){
+        width: 21rem;
+    }
+}
+
+.fsot__award-type{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    @include fontSize(12px);
+    font-weight: 400;
+}
+
+.fsot__award-quotes-img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.fsot__award-intro{
+    font-family: Georgia, sans-serif;
+    @include fontSize(14px);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.fsot__award-name{
+    @include fontSize(22px);
+    line-height: 1.2;
+    // width: 70%;
+}
+
+.fsot__award-read-more{
+    text-decoration: none;
+    font-weight: 700;
+    color: $eyOffBlack;
+    position: absolute;
+    bottom: 25px;
+}

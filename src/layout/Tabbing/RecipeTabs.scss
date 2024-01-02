@@ -1,0 +1,38 @@
+.fso__recipe-tab-section {
+    width: 100%;
+    background-color: $white;
+    padding: 2rem;
+
+    @include mq($from: desktop){
+        padding: 4rem;
+    }
+  }
+  
+  .fso__recipe-tabs {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .fsot__recipe-tab {    
+    padding: 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: $eyOffBlack;
+    font-size: 26px;
+    padding-bottom: 3px;
+
+    @include mq($from: desktop){
+        margin-right: 10rem;
+        width: fit-content;
+    }
+  }
+  
+  .active-tab {
+    font-weight: 700;
+    border-bottom: 2px solid $eyOffBlack;
+  }

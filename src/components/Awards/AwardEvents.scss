@@ -1,0 +1,84 @@
+.fsot__award-events-container{
+    display: flex;
+    flex-direction: column;
+
+    @include mq($from: tablet){
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+.fsot__award-events-heading{
+    background-color: $eyYellow;
+    width: fit-content;
+    margin-left: 4rem;
+    margin-bottom: 0;
+    padding: 10px 15px;
+}
+
+.fsot__award-events-text-cont{
+    flex-basis: 100%;
+    padding: 4rem 4rem 2rem;
+    background-color: $white;
+
+    @include mq($from: tablet){
+        flex-basis: 50%;
+    }
+}
+
+.fsot__award-events-sub-heading{
+    margin-bottom: 1rem;
+}
+
+.fsot__award-events-links-cont{
+    flex-basis: 100%;
+    padding: 4rem 4rem 2rem;
+    background-color: $eyPrimaryGray;
+
+    @include mq($from: tablet){
+        flex-basis: 50%;
+    }
+}
+
+.fsot__award-event-list{
+    list-style: none;
+    padding: 0;
+
+    &--item{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 1rem 1rem 1rem 0;
+    }
+
+    &--icon{
+        display: block;
+        width: 28px;
+        height: 28px;
+        margin-top: -3px;
+        margin-right: 12px;
+    }
+}
+
+.fsot__award-date-list{
+    list-style: none;
+    padding: 0;
+    margin-top: -5px;
+
+    &--item{
+        @include fontSize(14px);
+        line-height: 1.2;
+
+        &:first-child{
+            font-weight: 700;
+            @include fontSize(20px);
+        }
+    }
+}
+
+.fsot__award-events-sub-heading{
+    @include fontSize(32px);
+}
+
+.fsot__award-events-text{
+    @include fontSize(18px);
+}

@@ -1,0 +1,155 @@
+.fsot__index-article-section {
+  padding: 2rem;
+  background-color: $eySharkGreyOpac;
+  margin: 4rem auto;
+
+  @include mq($from: desktop) {
+    padding: 4rem;
+  }
+}
+
+.fsot__index-article-section-title{
+  // color: $eyOffBlack;
+  margin-bottom: 1rem;
+}
+
+.fsot__index-article-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dashed $eyOffWhite;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  &--item {
+    &:first-child {
+      flex-basis: 100%;
+      padding-bottom: 2rem;
+
+      @include mq($from: desktop) {
+        padding-right: 2rem;
+        border-right: 1px dashed $eyOffWhite;
+      }
+    }
+
+    &:last-child {
+      flex-basis: 100%;
+      display: flex;
+
+      @include mq($from: desktop) {
+        flex-basis: 40%;
+      }
+    }
+  }
+}
+
+.fsot__highlight-articles-cont {
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: tablet) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @include mq($from: desktop) {
+    display: block;
+    padding-left: 2rem;
+  }
+}
+
+.fsot__secondary-articles-cont {
+  display: flex;
+
+  @include mq($from: desktop) {
+    width: 90%;
+    margin-left: auto;
+  }
+}
+
+.fsot__highlight-article {
+  margin-bottom: 1rem;
+  flex-basis: 100%;
+  @include mq($from: tablet) {
+    flex-basis: 45%;
+  }
+}
+
+.fsot__highlight-article-link{
+  color: $eyOffWhite !important;
+
+  &:hover {
+    color: $eyOffWhite !important;
+  }
+}
+
+.fsot__main-article-img {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.fsot__index-article-img {
+  display: 100%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.fsot__index-article-title {
+  text-decoration: none;
+  color: $eyOffWhite;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.fsot__index-highlight-article-title {
+  text-decoration: none;
+  color: $eyOffWhite;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  @include fontSize(18px);
+}
+
+.fsot__index-article-text {
+  margin-bottom: 1rem;
+}
+
+.fsot__index-article-author {
+  @include fontSize(14px);
+  font-weight: 700;
+  color: $eyOffWhite;
+}
+
+.fsot__second-level-article-list {
+  list-style: none;
+  padding: 2rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  &--item {
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+
+    @include mq($from: tablet) {
+      flex-basis: 45%;
+    }
+
+    @include mq($from: desktop) {
+      flex-basis: 32%;
+    }
+
+    @include mq($from: desktopMid) {
+      flex-basis: 20%;
+    }
+  }
+}
+
+.fsot__index-article-span{
+  font-weight: 700;
+}

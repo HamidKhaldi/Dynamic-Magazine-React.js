@@ -1,0 +1,130 @@
+.fsot__secondary-article-section {
+  // padding: 2rem 0;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  
+  @include mq($from: desktop) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 32rem;
+  }
+}
+
+.change-section-position {
+  @include mq($from: desktop) {
+    flex-direction: row-reverse;
+    // margin-bottom: 10rem;
+  }
+}
+
+.fsot__secondary-article-img-cont {
+  position: relative;
+
+  @include mq($from: desktop) {
+    flex-basis: 35%;
+  }
+}
+
+.fsot__secondary-article-img {
+  width: 100%;
+  // height: auto;
+
+  @include mq($from: desktop) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    width: 142%;
+    height: auto;
+  }
+}
+
+.fsot__secondary-article-video {
+  height: 90%;
+}
+
+.change-media-position {
+  @include mq($from: desktop) {
+    top: auto;
+    left: auto;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.fsot__secondary-article-content {
+  background-color: $white;
+  padding: 2rem;
+
+  @include mq($from: desktop) {
+    flex-basis: 65%;
+    padding: 4rem 4rem 4rem 15rem;
+    margin-top: 4rem;
+    min-height: 28rem;
+  }
+}
+
+.fsot__secondary-article-noImg-content {
+  background-color: #fff;
+  margin: 3rem auto;
+  padding: 2rem;
+  width: 100%;
+
+  @include mq($from: desktop) {
+    padding: 4rem;
+  }
+}
+
+
+.change-content-position {
+  @include mq($from: desktop){
+    padding-left: 4rem;
+    padding-right: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.fsot__secondary-article-sub-heading {
+  margin-bottom: 1.5rem;
+  color: $eyOffBlack;
+}
+
+.fsot__secondary-article-list {
+  list-style: none;
+  padding: 0;
+
+  @include mq($from: desktop) {
+    padding-left: 2.5rem;
+  }
+
+  &--item {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  &--link {
+    display: inline-block;
+    text-decoration: none;
+    color: $eyOffBlack;
+    font-weight: 700;
+    margin-right: 5px;
+  }
+}
+
+.fsot__secondary-article-text {
+  @include fontSize(16px);
+  font-family: EYInterstate-Light, sans-serif;
+  color: $eyOffBlack;
+  font-weight: 300;
+  line-height: 1.5;
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+    text-decoration: underline !important;
+    font-weight: 700;
+  }
+}

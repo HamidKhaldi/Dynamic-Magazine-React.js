@@ -1,0 +1,13 @@
+.breakpoint-indicator {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: $eyHoverPink;
+  color: $eyBlack;
+  padding: 8px;
+  font-size: 14px;
+  z-index: 1000;
+  width: auto;
+  font-weight: bold;
+}
+

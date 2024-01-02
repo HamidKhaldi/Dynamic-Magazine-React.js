@@ -1,0 +1,67 @@
+.image {
+  &-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+  }
+
+  &-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  &-title {
+    height: 80px;
+    margin: 20px 0 0 0;
+    font-family: EYInterstate-Regular, sans-serif;
+    @include fontSize(20px);
+    line-height: 24px;
+    color: $eyOffBlack;
+    text-align: center;
+  }
+
+  &-bottom-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 28px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    background-color: $eyOffBlack;
+    opacity: 80%;
+
+    &:after {
+      content: url("https://eygb.sharepoint.com/:u:/r/sites/Creative-UK/SiteAssets/Pages-test-k/images/chevron-yellow.svg");
+      position: absolute;
+      right: 7px;
+      top: 10px;
+    }
+  }
+
+  &-content {
+    width: 100%;
+    padding: 0 35px 20px 35px;
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
+    overflow-y: scroll;
+
+    &-item {
+      padding: 6px 0;
+      border-bottom: 1px solid $eyOffBlack;
+      font-family: EYInterstate-Light, sans-serif;
+      @include fontSize(16px);
+      line-height: 19px;
+      color: $eyOffBlack;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}

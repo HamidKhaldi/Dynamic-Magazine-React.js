@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="#F5F5F5"/>
+<g id="moreInfo_Modal_template">
+<rect width="1435" height="736" transform="translate(-729 -253)" fill="#F9F9FA"/>
+<g id="Carousel">
+<g id="Btn Left" clip-path="url(#clip0_0_1)" transform="scale(-1, 1) translate(-32, 0)">
+<path id="Vector" d="M24.8926 15.451L9.66899 0.22739C9.36581 -0.0757966 8.87423 -0.0757966 8.57115 0.22739L7.10718 1.69136C6.96154 1.8369 6.87976 2.0344 6.87976 2.24028C6.87976 2.44617 6.96154 2.64367 7.10718 2.78921L20.318 15.9999L7.10718 29.2107C6.96154 29.3563 6.87976 29.5538 6.87976 29.7597C6.87976 29.9656 6.96154 30.1631 7.10718 30.3086L8.57115 31.7726C8.72269 31.9241 8.92143 32 9.12007 32C9.31871 32 9.51745 31.9242 9.66899 31.7726L24.8926 16.549C25.1959 16.2458 25.1959 15.7542 24.8926 15.451Z" fill="#2E2E38"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

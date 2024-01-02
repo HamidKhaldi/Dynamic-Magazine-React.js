@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="735" viewBox="0 0 1440 735">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#eceaea"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_33" data-name="Rectangle 33" width="1440" height="735" transform="translate(0 829)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_42" data-name="Rectangle 42" width="2367" height="735" transform="translate(2367 735) rotate(180)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.115" cy="1.506" r="3.189" gradientTransform="translate(1.181 -1.011) rotate(180) scale(0.333 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#eaeaea"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.479" cy="0.521" r="0.701" gradientTransform="matrix(0.707, 0.707, -0.099, 0.099, -1.928, 14.103)" gradientUnits="objectBoundingBox">
+      <stop offset="0.006" stop-color="#eaeaea"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.521" cy="0.479" r="0.701" gradientTransform="matrix(-0.707, -0.707, 0.099, -0.099, 9.743, 15.619)" gradientUnits="objectBoundingBox">
+      <stop offset="0.003" stop-color="#eaeaea"/>
+      <stop offset="0.146" stop-color="#bdbdbd"/>
+      <stop offset="0.376" stop-color="#7a7a7a"/>
+      <stop offset="0.585" stop-color="#454545"/>
+      <stop offset="0.766" stop-color="#1f1f1f"/>
+      <stop offset="0.91" stop-color="#080808"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="7.634" y1="18.322" x2="8.634" y2="18.322" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eaeaea"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-4" cx="0.479" cy="0.521" r="0.701" gradientTransform="translate(-1.853 14.06) rotate(45) scale(1 0.14)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-5" cx="0.521" cy="0.479" r="0.701" gradientTransform="matrix(-0.707, -0.707, 0.099, -0.099, 10.077, 15.473)" xlink:href="#radial-gradient-3"/>
+    <filter id="Path_35" x="-342.369" y="-45.32" width="1411.051" height="1314.973" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="7.803" y1="83.013" x2="8.803" y2="83.013" xlink:href="#linear-gradient-2"/>
+    <radialGradient id="radial-gradient-6" cx="0.479" cy="0.479" r="0.701" gradientTransform="matrix(-0.707, 0.707, -0.099, -0.099, -5.885, 18.623)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-7" cx="0.521" cy="0.521" r="0.701" gradientTransform="matrix(0.707, -0.707, 0.099, 0.099, -0.118, 4.754)" xlink:href="#radial-gradient-3"/>
+    <linearGradient id="linear-gradient-4" x1="3.946" y1="-13.087" x2="4.946" y2="-13.087" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-8" cx="0.479" cy="0.479" r="0.701" gradientTransform="matrix(-0.707, 0.707, -0.099, -0.099, -5.359, 18.947)" xlink:href="#radial-gradient-2"/>
+    <filter id="Path_38" x="-334.993" y="-404.342" width="1411.051" height="1314.973" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-9" cx="0.521" cy="0.521" r="0.701" gradientTransform="translate(-0.026 4.74) rotate(-45) scale(1 0.14)" xlink:href="#radial-gradient-3"/>
+    <filter id="Path_39" x="-351.985" y="-420.162" width="1411.051" height="1314.973" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="4.16" y1="-9300.072" x2="5.16" y2="-9300.072" xlink:href="#linear-gradient-2"/>
+    <filter id="Path_49" x="-345.076" y="-461.879" width="1414.226" height="1414.226" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-10" cx="0.479" cy="0.521" r="0.701" gradientTransform="matrix(0.707, 0.707, -0.099, 0.099, -1.911, 14.085)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-11" cx="0.521" cy="0.479" r="0.701" gradientTransform="translate(9.621 15.735) rotate(-135) scale(1 0.14)" xlink:href="#radial-gradient-3"/>
+    <linearGradient id="linear-gradient-6" x1="7.629" y1="103.44" x2="8.629" y2="103.44" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+    <filter id="Path_50" x="-51.645" y="-331.826" width="1453.793" height="1453.793" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-12" cx="0.479" cy="0.479" r="0.701" gradientTransform="matrix(-0.707, 0.707, -0.099, -0.099, -6.136, 18.97)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-13" cx="0.521" cy="0.521" r="0.701" gradientTransform="matrix(0.707, -0.707, 0.099, 0.099, -0.076, 4.828)" xlink:href="#radial-gradient-3"/>
+    <filter id="Path_43" x="30.244" y="-368.013" width="1411.051" height="1314.974" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" x1="4.082" y1="-8923.277" x2="5.082" y2="-8923.277" xlink:href="#linear-gradient-2"/>
+    <radialGradient id="radial-gradient-14" cx="0.479" cy="0.479" r="0.701" gradientTransform="translate(-6.746 18.713) rotate(135) scale(1 0.14)" xlink:href="#radial-gradient-2"/>
+    <filter id="Path_44" x="519.583" y="-240.966" width="1411.051" height="1314.973" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-15" cx="0.521" cy="0.521" r="0.701" gradientTransform="matrix(0.707, -0.707, 0.099, 0.099, -0.185, 4.849)" xlink:href="#radial-gradient-3"/>
+    <filter id="Path_45" x="420.277" y="-333.424" width="1411.051" height="1314.975" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x1="3.857" y1="-69.996" x2="4.857" y2="-69.996" xlink:href="#linear-gradient-2"/>
+    <filter id="Path_52" x="427.184" y="-377.979" width="1496.541" height="1496.541" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 -829)" clip-path="url(#clip-path)">
+    <g id="Group_29" data-name="Group 29" transform="translate(0 829)">
+      <g id="Group_28" data-name="Group 28" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_34" data-name="Rectangle 34" width="2367" height="735" transform="translate(2367 735) rotate(180)" fill="url(#radial-gradient)"/>
+        <g id="Group_19" data-name="Group 19" transform="translate(-380.178 -533.508)" style="mix-blend-mode: overlay;isolation: isolate">
+          <line id="Line_1" data-name="Line 1" y1="1462.116" x2="1570.428" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_2" data-name="Line 2" y1="1462.116" x2="1570.428" transform="translate(16.839 15.677)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_3" data-name="Line 3" y1="1462.116" x2="1570.428" transform="translate(33.677 31.354)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_4" data-name="Line 4" y1="1462.116" x2="1570.428" transform="translate(50.516 47.032)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_5" data-name="Line 5" y1="1462.116" x2="1570.428" transform="translate(67.354 62.709)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_6" data-name="Line 6" y1="1462.116" x2="1570.428" transform="translate(84.193 78.386)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_7" data-name="Line 7" y1="1462.116" x2="1570.428" transform="translate(101.031 94.063)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_8" data-name="Line 8" y1="1462.116" x2="1570.428" transform="translate(117.87 109.74)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_9" data-name="Line 9" y1="1462.116" x2="1570.428" transform="translate(134.708 125.417)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_10" data-name="Line 10" y1="1462.116" x2="1570.428" transform="translate(151.547 141.095)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+        </g>
+        <g id="Group_20" data-name="Group 20" transform="translate(-135.283 -350.648)">
+          <path id="Path_32" data-name="Path 32" d="M829.774,370.013C447,13.641,93.061-234.626,39.228-184.506L1425.371,1106.038C1479.2,1055.915,1212.548,726.387,829.774,370.013Z" transform="translate(173.432 190.937)" fill="url(#radial-gradient-2)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Path_33" data-name="Path 33" d="M533.92,652.9c382.773,356.372,736.713,604.639,790.546,554.518L-61.676-83.124C-115.511-33,151.147,296.525,533.92,652.9Z" transform="translate(68.584 281.118)" fill="url(#radial-gradient-3)" style="mix-blend-mode: screen;isolation: isolate"/>
+          <path id="Path_46" data-name="Path 46" d="M0,0,1892.7-67.6l-10.034,280.943-1892.7,67.6Z" transform="translate(1393.051 1488.536) rotate(-135)" fill="url(#linear-gradient-2)"/>
+        </g>
+        <g id="Group_21" data-name="Group 21" transform="translate(-333.369 -91.978)">
+          <path id="Path_34" data-name="Path 34" d="M650.211,510.866C267.438,154.492-86.5-93.773-140.335-43.653L1245.808,1246.889C1299.641,1196.768,1032.985,867.24,650.211,510.866Z" transform="translate(196.893 50.084)" fill="url(#radial-gradient-4)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g transform="matrix(1, 0, 0, 1, 333.37, 91.98)" filter="url(#Path_35)" style="mix-blend-mode: screen;isolation: isolate">
+            <path id="Path_35-2" data-name="Path 35" d="M433.5,714.612c382.773,356.374,736.713,604.639,790.547,554.518L-162.1-21.411C-215.935,28.711,50.723,358.24,433.5,714.612Z" transform="translate(-164.36 -17.91)" fill="url(#radial-gradient-5)"/>
+          </g>
+          <path id="Path_47" data-name="Path 47" d="M0,0,1892.7-67.6,1890.281.194l-1892.7,67.6Z" transform="translate(1393.051 1343.199) rotate(-135)" fill="url(#linear-gradient-3)"/>
+        </g>
+        <g id="Group_22" data-name="Group 22" transform="translate(-59.13 -421.027)">
+          <path id="Path_36" data-name="Path 36" d="M851.19,597.386c382.773-356.374,649.432-685.9,595.6-736.025L60.644,1151.9C114.479,1202.025,468.419,953.758,851.19,597.386Z" transform="translate(118.106 305.061)" fill="url(#radial-gradient-6)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Path_37" data-name="Path 37" d="M572.527,331.69c-382.773,356.374-649.43,685.9-595.6,736.025L1363.074-222.829C1309.24-272.949,955.3-24.684,572.527,331.69Z" transform="translate(29.977 229.26)" fill="url(#radial-gradient-7)" style="mix-blend-mode: screen;isolation: isolate"/>
+          <path id="Path_48" data-name="Path 48" d="M0,0,1892.7,67.6l8.38,234.642-1892.7-67.6Z" transform="translate(6.908 1296.974) rotate(-45)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="Group_23" data-name="Group 23" transform="translate(554.963 -378.627)" style="mix-blend-mode: overlay;isolation: isolate">
+          <line id="Line_11" data-name="Line 11" y1="1462.116" x2="1570.428" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_12" data-name="Line 12" y1="1462.116" x2="1570.428" transform="translate(16.839 15.677)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_13" data-name="Line 13" y1="1462.116" x2="1570.428" transform="translate(33.677 31.354)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_14" data-name="Line 14" y1="1462.116" x2="1570.428" transform="translate(50.516 47.032)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_15" data-name="Line 15" y1="1462.116" x2="1570.428" transform="translate(67.354 62.709)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_16" data-name="Line 16" y1="1462.116" x2="1570.428" transform="translate(84.193 78.386)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_17" data-name="Line 17" y1="1462.116" x2="1570.428" transform="translate(101.031 94.063)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_18" data-name="Line 18" y1="1462.116" x2="1570.428" transform="translate(117.87 109.74)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_19" data-name="Line 19" y1="1462.116" x2="1570.428" transform="translate(134.708 125.418)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+          <line id="Line_20" data-name="Line 20" y1="1462.116" x2="1570.428" transform="translate(151.547 141.095)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="2.48"/>
+        </g>
+        <g id="Group_24" data-name="Group 24" transform="translate(-342.985 -414.162)">
+          <g transform="matrix(1, 0, 0, 1, 342.98, 414.16)" filter="url(#Path_38)" style="mix-blend-mode: multiply;isolation: isolate">
+            <path id="Path_38-2" data-name="Path 38" d="M625.277,519.115c382.774-356.374,649.43-685.9,595.6-736.023L-165.269,1073.634C-111.436,1123.754,242.5,875.489,625.277,519.115Z" transform="translate(-160.72 -181.43)" fill="url(#radial-gradient-8)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 342.98, 414.16)" filter="url(#Path_39)" style="mix-blend-mode: screen;isolation: isolate">
+            <path id="Path_39-2" data-name="Path 39" d="M428.621,335.428c-382.773,356.374-649.43,685.9-595.6,736.023L1219.168-219.091C1165.334-269.211,811.395-20.946,428.621,335.428Z" transform="translate(-169.1 -188.64)" fill="url(#radial-gradient-9)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 342.98, 414.16)" filter="url(#Path_49)">
+            <path id="Path_49-2" data-name="Path 49" d="M0,0,1892.7,67.6l.492,13.767L.492,13.767Z" transform="translate(-336.08 882.81) rotate(-45)" fill="url(#linear-gradient-5)"/>
+          </g>
+        </g>
+        <g id="Group_25" data-name="Group 25" transform="translate(-49.554 -282.745)">
+          <path id="Path_40" data-name="Path 40" d="M794.1,406.988C411.324,50.614,57.384-197.651,3.551-147.53L1389.694,1143.011C1443.527,1092.891,1176.871,763.362,794.1,406.988Z" transform="translate(53.007 153.962)" fill="url(#radial-gradient-10)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Path_41" data-name="Path 41" d="M577.382,610.734c382.774,356.374,736.713,604.639,790.547,554.519L-18.214-125.289C-72.048-75.167,194.609,254.362,577.382,610.734Z" transform="translate(25.122 177.946)" fill="url(#radial-gradient-11)" style="mix-blend-mode: screen;isolation: isolate"/>
+          <g transform="matrix(1, 0, 0, 1, 49.55, 282.75)" filter="url(#Path_50)">
+            <path id="Path_50-2" data-name="Path 50" d="M0,0,1892.7-67.6,1890.281.194l-1892.7,67.6Z" transform="translate(1343.5 1060.45) rotate(-135)" fill="url(#linear-gradient-6)"/>
+          </g>
+        </g>
+        <g id="Group_26" data-name="Group 26" transform="translate(39.244 -362.013)">
+          <path id="Path_42" data-name="Path 42" d="M819.056,547.513c382.773-356.374,649.43-685.9,595.6-736.025L28.51,1102.031C82.343,1152.152,436.283,903.885,819.056,547.513Z" transform="translate(-11.518 204.33)" fill="url(#radial-gradient-12)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <g transform="matrix(1, 0, 0, 1, -39.24, 362.01)" filter="url(#Path_43)" style="mix-blend-mode: screen;isolation: isolate">
+            <path id="Path_43-2" data-name="Path 43" d="M622.4,363.825C239.627,720.2-27.03,1049.728,26.8,1099.848L1412.947-190.693C1359.113-240.816,1005.174,7.451,622.4,363.825Z" transform="translate(19.35 -164.89)" fill="url(#radial-gradient-13)"/>
+          </g>
+          <path id="Path_51" data-name="Path 51" d="M0,0,1892.7,67.6l.492,13.767L.492,13.767Z" transform="translate(6.908 1296.974) rotate(-45)" fill="url(#linear-gradient-7)"/>
+        </g>
+        <g id="Group_27" data-name="Group 27" transform="translate(429.277 -327.424)">
+          <g transform="matrix(1, 0, 0, 1, -429.28, 327.42)" filter="url(#Path_44)" style="mix-blend-mode: multiply;isolation: isolate">
+            <path id="Path_44-2" data-name="Path 44" d="M1058.522,608.078c382.773-356.374,649.43-685.9,595.6-736.023L267.976,1162.6C321.809,1212.717,675.749,964.45,1058.522,608.078Z" transform="translate(260.61 -107.02)" fill="url(#radial-gradient-14)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -429.28, 327.42)" filter="url(#Path_45)" style="mix-blend-mode: screen;isolation: isolate">
+            <path id="Path_45-2" data-name="Path 45" d="M820.135,382.661c-382.773,356.372-649.43,685.9-595.6,736.023L1610.682-171.86C1556.846-221.98,1202.907,26.287,820.135,382.661Z" transform="translate(211.65 -149.13)" fill="url(#radial-gradient-15)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -429.28, 327.42)" filter="url(#Path_52)">
+            <path id="Path_52-2" data-name="Path 52" d="M0,0,1892.7,67.6l4.506,126.164-1892.7-67.6Z" transform="translate(436.18 969.55) rotate(-45)" fill="url(#linear-gradient-8)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

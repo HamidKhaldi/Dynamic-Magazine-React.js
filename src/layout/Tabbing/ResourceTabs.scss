@@ -1,0 +1,50 @@
+.fsot__resource-tab-section{
+    background-color: $white;
+    color: $eyOffBlack;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    @include mq($from: desktop){
+        padding: 4rem;
+        flex-direction: row;
+    }
+}
+
+.fsot__resource-tabs{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+    @include mq($from: desktop){
+        flex-basis: 35%;
+    }
+}
+
+.fsot__resource-tab-content{
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+
+    @include mq($from: desktop){
+        flex-basis: 65%;
+    }
+}
+
+.fsot__resource-tab{
+    width: 100%;
+    background-color: $white;
+    padding: 10px 10px 10px 0;
+    text-align: left;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $eyOffBlack;
+    margin-bottom: 1rem;
+
+    @include mq($from: desktop){
+        width: 85%;
+    }
+}
+
+.active-resource-tab{
+    font-weight: 700;
+}

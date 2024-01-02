@@ -1,0 +1,24 @@
+.fsot__select-filter-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+.fsot__select-filter-heading {
+    color: $white;
+    font-weight: 700;
+    @include fontSize(16px);
+    margin-right: 1rem;
+    padding-top: 8px;
+  }
+  
+  .fsot__select-filter-select {
+    min-width: 15rem;
+    border-radius: 0;
+  }

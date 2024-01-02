@@ -1,0 +1,98 @@
+.fsot__tab-content-section{
+    background-color: $white;
+    color: $eyOffBlack;
+    padding: 3rem 0;
+}
+
+.fsot__recipe-top-cont{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    @include mq($from: desktop){
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.fsot__recipe-hero-cont{
+    flex-basis: 100%;
+
+    @include mq($from: desktop){
+        flex-basis: 60%;
+    }
+}
+
+.fsot__recipe-quote-cont{
+    flex-basis: 100%;
+   
+    @include mq($from: desktop){
+        flex-basis: 40%;
+        padding-top: 8rem;
+    }
+}
+
+.fsot__recipe-info-list{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-top: 1px solid $eyOffBlack;
+    border-bottom: 1px solid $eyOffBlack;
+    margin-bottom: 3rem;
+
+    &--item{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    &--icon{
+        width: 37px;
+        height: 37px;
+    }
+}
+
+.fsot__recipe-timing-list{
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+   
+    &--item{
+        @include fontSize(12px);
+        color: $eyOffBlack;
+
+        &:first-child{
+            font-weight: bold;
+        }
+    }
+}
+
+
+.fsot__recipe-hero-img{
+    width: 100%;
+    display: block;
+}
+
+.fsot__recipe-sub-heading{
+    font-weight: 700;
+    @include fontSize(16px);
+    color: $eyOffBlack;
+}
+
+.fsot__recipe-text{
+    @include fontSize(16px);
+    font-family: EYInterstate-Light, sans-serif;
+    color: $eyOffBlack;
+    font-weight: 300;
+    line-height: 1.5;
+    
+    a{
+      text-decoration: none !important;
+      color: $eyOffBlack;
+      text-decoration: underline !important;
+      font-weight: 700;
+    }
+}
+

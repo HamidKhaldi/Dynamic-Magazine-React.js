@@ -1,0 +1,43 @@
+.fsot__prize-section{
+    padding: 2rem 0;
+}
+
+.fsot__prize-section-intro{
+    padding-left: 2rem;
+    @include fontSize(28px);
+
+    @include mq($from: desktop){
+        padding-left: 4rem;
+    }
+}
+
+.fsot__prize-img-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    @include mq($from: tablet){
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &--item{
+        flex-basis: 100%;
+        height: 13rem;
+
+        @include mq($from: tablet){
+            flex-basis: 50%;
+        }
+
+        @include mq($from: desktop){
+            flex-basis: 33.33%;
+        }
+    }
+
+    &--img{
+        width: 100%; 
+        height: 100%;       
+    }
+}
+

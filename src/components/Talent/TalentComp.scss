@@ -1,0 +1,48 @@
+.fsot__talent-section {
+  background-color: $eyOffBlack;
+  padding: 0 2rem 4rem;
+
+  @include mq($from: desktop) {
+    padding: 0 4rem 4rem;
+  }
+
+  @include mq($from: desktopWide){
+    padding: 0 0 4rem;
+  }
+}
+
+.fsot__talent-section-heading{
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.fsot__talent-section-intro {
+  margin-bottom: 3rem;
+}
+
+.fsot__talent-items-cont {
+  @include fontSize(18px);
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.fsot__talent-card-list {
+  padding: 0;
+  margin-bottom: 3rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  @include mq($from: desktopMid) {
+    justify-content: space-between;
+  }
+
+  &--item {
+    margin-bottom: 2rem;
+
+    @include mq($from: tablet) {
+      margin-right: 1rem;
+    }
+  }
+}

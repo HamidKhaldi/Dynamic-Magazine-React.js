@@ -1,0 +1,26 @@
+.fsot__Hero-Intro-cont{
+    background-color: $eyOffBlack;
+    color: $eyOffWhite;
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+    @include fontSize(16px);
+    font-family: EYInterstate-Light, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+  
+    a{
+      text-decoration: none !important;
+      color: $eyOffWhite;
+      text-decoration: underline !important;
+      font-weight: 700;
+    }
+
+    @include mq($from: desktop){
+        padding: 3rem 4rem;
+    }
+}
+
+.fsot__Hero-Intro-Heading{
+    @include fontSize(32px);
+}

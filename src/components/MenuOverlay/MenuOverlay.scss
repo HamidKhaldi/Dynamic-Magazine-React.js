@@ -1,0 +1,135 @@
+.menu {
+  &-wrapper {
+    width: 100%;
+    margin-left: 5%;
+    display: none;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    column-gap: 0;
+
+
+    &.active {
+      display: flex;
+      z-index: 1;
+    }
+
+    @include mq($from: tablet) {
+      margin-left: 10%;
+    }
+
+    @include mq($from: desktop) {
+      margin-left: 0;
+      flex-direction: row;
+      align-items: flex-end;
+      column-gap: 20px;
+    }
+  }
+
+  &-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $eyOffBlack;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+    &.active {
+      opacity: 1;
+      z-index: 1;
+    }
+
+    .menu-list,
+    .menu-action {
+      width: 500px;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .menu-list {
+      &-item {
+        position: relative;
+        margin-bottom: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        @include mq($from: desktop) {}
+      }
+
+      &-item--link {
+        display: block;
+        text-decoration: none;
+        font-family: EYInterstate-Light, sans-serif;
+        @include fontSize(22px);
+        line-height: 26px;
+        color: $eyTextGrey;
+
+        @include mq($from: desktop) {
+          @include fontSize(30px);
+          line-height: 36px;
+          transition: 1s ease-in-out;
+
+          &:hover {
+            margin-left: 25px;
+
+            &::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 6px;
+              width: 6px;
+              height: 22px;
+              background-color: $eyYellow;
+            }
+          }
+        }
+      }
+    }
+
+    .menu-action {
+      text-align: left;
+
+      @include mq($from: desktop) {
+        text-align: right;
+      }
+
+      &-item {
+        margin-bottom: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      &-item--link {
+        display: block;
+        text-decoration: none;
+        font-family: EYInterstate-Light, sans-serif;
+        @include fontSize(22px);
+        line-height: 26px;
+        color: $eyTextGrey;
+
+        @include mq($from: desktop) {
+          @include fontSize(30px);
+          line-height: 36px;
+          transition: font-size 1s ease-in-out;
+
+          &:hover {
+            @include fontSize(32px);
+            color: $eyYellow;
+          }
+        }
+      }
+    }
+  }
+}
