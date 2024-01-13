@@ -29,8 +29,7 @@ const UserAnalytics = ({ children }) => {
   };
 
   const webUrlClient = "siteUrl";
-  const webUrlCUK =
-    "https://eygb.sharepoint.com/sites/Creative-UK-Analytics/FSO-Together";
+  const webUrlCUK = "siteUrl";
 
   const postUserData = (url) => {
     axios
