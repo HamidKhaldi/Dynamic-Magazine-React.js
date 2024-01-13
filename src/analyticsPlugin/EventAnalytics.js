@@ -4,8 +4,7 @@ import track, { useTracking } from "react-tracking";
 import { isProduction } from "../hooks/usePathString";
 
 const webUrlClient = "siteUrl";
-const webUrlCUK =
-  "https://eygb.sharepoint.com/sites/Creative-UK-Analytics/FSO-Together";
+const webUrlCUK = "siteUrl"
 
 const postEventData = (url, data) => {
   console.log("postEventData", data);
@@ -62,7 +61,7 @@ const EventComponent = ({ children }) => {
 
 const EventAnalytics = track(
   // app-level tracking data
-  { app: "fso-together" },
+  { app: "react-app" },
 
   // top-level options
   {
