@@ -6,7 +6,7 @@ import { isProduction } from '../hooks/usePathString';
 const PageAnalytics = ({ children, pageName }) => {
   // console.log('pageName ', pageName);
   const webUrlClient = "siteUrl";
-  const webUrlCUK = "https://eygb.sharepoint.com/sites/Creative-UK-Analytics/FSO-Together";
+  const webUrlCUK = "siteUrl";
 
   useEffect(() => {
     console.log('Page name changed:', pageName);
